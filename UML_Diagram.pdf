@@ -1,0 +1,26 @@
+UML Class Diagram: Personal Account Management
+This UML class diagram represents the structure of the Personal Account Management System.
+Classes:
+1. Amount Class:
+ - Attributes:
+ * amount (float)
+ * timestamp (datetime)
+ * transaction_type (string)
+ - Methods:
+ * __init__(self, amount, transaction_type)
+ * __str__(self)
+2. PersonalAccount Class:
+ - Attributes:
+ * account_number (int)
+ * account_holder (string)
+ * balance (float)
+ * transactions (list of Amount objects)
+ - Methods:
+ * __init__(self, account_number, account_holder)
+ * deposit(self, amount)
+ * withdraw(self, amount)
+ * print_transaction_history(self)
+ * get_balance(self)
+ * __str__(self)
+The 'PersonalAccount' class maintains a one-to-many relationship with 'Amount'. Each transaction
+recorded in the 'transactions' list represents either a deposit or withdrawal.
