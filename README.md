@@ -33,7 +33,7 @@ This project is a Python-based personal bank account management system that allo
 - **Transaction History:** View all past deposits and withdrawals.
 
 ## UML Class Diagram
-The UML class diagram for this project is included as `UML_Diagram.png` in the repository.
+The UML class diagram for this project is included as `UML_Diagram.pdf` in the repository.
 
 ## Author
 Mirbek Mamashov
