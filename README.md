@@ -15,7 +15,7 @@ This project is a Python-based personal bank account management system that allo
 ## Installation
 1. Clone this repository:
    ```sh
-   https://github.com/MamashovMirbek/OOP-3
+   git clone https://github.com/MamashovMirbek/OOP-3/blob/main/main.py
    ```
 2. Navigate to the project directory:
    ```sh
